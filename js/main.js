@@ -1,4 +1,4 @@
-fetch('http://api.citybik.es/v2/networks/bicloo').then(function(res) {
+fetch('https://api.citybik.es/v2/networks/bicloo').then(function(res) {
 	return res.json().then(function(data) {
         const stations = data.network.stations;
         const liste = document.querySelector('.stations');
