@@ -103,7 +103,7 @@ h4{
     }
 
     .station{
-        min-width: 50%;
+        min-width: 80%;
         border-radius: 20px;
         display: flex;
         flex-direction: row;
