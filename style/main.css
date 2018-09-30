@@ -83,7 +83,7 @@ h4{
     border-color: green;
 } */
 
-@media screen and (max-width: 992px) {
+@media all and (max-width: 992px) {
     h1{
         font-size: 26px;
     }
