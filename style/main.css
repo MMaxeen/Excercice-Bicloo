@@ -11,11 +11,8 @@ body{
     font-size: 14px;
 }
 
-h1::selection{
-    color: #00ffd3;
-}
-
 ::selection{
+    background-color: #00ffd3;
     color: #404fe6;
 }
 
