@@ -10,7 +10,6 @@ fetch('https://api.citybik.es/v2/networks/bicloo').then(function(res) {
             const p1 = document.createElement('p');
             const p2 = document.createElement('p');
             const indikator = document.createElement('div');
-            // indikator.classList.add("couleur");
             
             const texteH4 = stations[i].extra.address;
             h4.innerText = texteH4;
